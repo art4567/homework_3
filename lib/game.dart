@@ -14,7 +14,7 @@ class Game {
   Game() {
     print('Enter a maximum number to random : $ran');
   }
-  void Gen_number() {
+  void Gen() {
     this.ran = Random().nextInt(100) + 1;
     this.answer = Random().nextInt(ran) + 1;
     this._totalGuesses = 0;

@@ -37,7 +37,7 @@ void main() {
         var input = stdin.readLineSync();
         if (input == "y" || input == "Y") {
           guessResult = GuessResult.new_game;
-          game.Gen_number();
+          game.Gen();
           shape();
           break;
         } else if (input == "n" || input == "N") {
