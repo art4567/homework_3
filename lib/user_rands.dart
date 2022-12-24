@@ -3,17 +3,12 @@
 import 'dart:io';
 import 'game.dart';
 
-
-void shape() {
-  print('╔══════════════════════════════════════════════════');
-  print('║              GUESS THE NUMBER 2/2565             ');
-  print('║──────────────────────────────────────────────────');
-}
-
 void main() {
   var game = Game();
   late GuessResult guessResult;
-  shape();
+  print('╔══════════════════════════════════════════════════');
+  print('║              GUESS THE NUMBER 2/2565             ');
+  print('║──────────────────────────────────────────────────');
   do {
     stdout.write('║  Guess the number between 1 and ${game.totalRandoms} : ');
     var input = stdin.readLineSync();
