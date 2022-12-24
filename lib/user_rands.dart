@@ -15,7 +15,7 @@ void main() {
   late GuessResult guessResult;
   shape();
   do {
-    stdout.write('║  Guess the number between 1 and 100 : ');
+    stdout.write('║  Guess the number between 1 and ${game.totalRandoms} : ');
     var input = stdin.readLineSync();
     if (input == null) {
       //print('Error, input is NULL');

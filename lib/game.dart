@@ -36,4 +36,7 @@ class Game {
     myList.add(_totalGuesses);
     return _totalGuesses;
   }
+  int get totalRandoms{
+    return ran;
+  }
 }
