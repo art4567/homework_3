@@ -33,7 +33,6 @@ void main() {
         if (input == "y" || input == "Y") {
           guessResult = GuessResult.new_game;
           game.Gen();
-          shape();
           break;
         } else if (input == "n" || input == "N") {
           guessResult = GuessResult.correct;
